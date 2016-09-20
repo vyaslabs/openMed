@@ -1,0 +1,20 @@
+LANG=
+apt-get update
+apt-get install -y casper lupin-casper
+apt-get install -y ubiquity ubiquity-frontend-gtk
+#apt-get install -y gparted testdisk wipe partimage xfsprogs reiserfsprogs jfsutils ntfs-3g dosfstools mtools
+depmod -a $(uname -r)
+update-initramfs -u -k $(uname -r)
+for i in `cat /etc/passwd | awk -F":" '{print $1}'`
+do
+        uid=`cat /etc/passwd | grep "^${i}:" | awk -F":" '{print $3}'`
+        [ "$uid" -gt "998" -a  "$uid" -ne "65534"  ] && userdel --force ${i} 2> /dev/null
+done
+apt-get clean
+find /var/log -regex '.*?[0-9].*?' -exec rm -v {} \;
+find /var/log -type f | while read file
+do
+        cat /dev/null | tee $file
+done
+#rm /etc/resolv.conf /etc/hostname
+

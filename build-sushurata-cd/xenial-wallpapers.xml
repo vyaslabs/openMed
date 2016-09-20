@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+ <wallpaper deleted="false">
+   <name>Ubuntu 16.04 Community Wallpapers</name>
+   <filename>/usr/share/backgrounds/contest/xenial.xml</filename>
+   <options>zoom</options>
+ </wallpaper>
+ <wallpaper>
+     <name>Hindawi</name>
+     <filename>/usr/share/backgrounds/sushurata-splash.png</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>160218-deux-two</name>
+     <filename>/usr/share/backgrounds/160218-deux-two_by_Pierre_Cante.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>Black hole</name>
+     <filename>/usr/share/backgrounds/Black_hole_by_Marek_Koteluk.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>Cielo estrellado</name>
+     <filename>/usr/share/backgrounds/Cielo_estrellado_by_Eduardo_Diez_Viñuela.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>clock</name>
+     <filename>/usr/share/backgrounds/clock_by_Bernhard_Hanakam.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>Dans ma bulle</name>
+     <filename>/usr/share/backgrounds/Dans_ma_bulle_by_Christophe_Weibel.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>Flora</name>
+     <filename>/usr/share/backgrounds/Flora_by_Marek_Koteluk.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>Icy Grass</name>
+     <filename>/usr/share/backgrounds/Icy_Grass_by_Raymond_Lavoie.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>Night lights</name>
+     <filename>/usr/share/backgrounds/Night_lights_by_Alberto_Salvia_Novella.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>passion flower</name>
+     <filename>/usr/share/backgrounds/passion_flower_by_Irene_Gr.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>Spring</name>
+     <filename>/usr/share/backgrounds/Spring_by_Peter_Apas.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>TCP118v1</name>
+     <filename>/usr/share/backgrounds/TCP118v1_by_Tiziano_Consonni.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+ <wallpaper>
+     <name>The Land of Edonias</name>
+     <filename>/usr/share/backgrounds/The_Land_of_Edonias_by_Γιωργος_Αργυροπουλος.jpg</filename>
+     <options>zoom</options>
+     <pcolor>#000000</pcolor>
+     <scolor>#000000</scolor>
+     <shade_type>solid</shade_type>
+ </wallpaper>
+</wallpapers>
