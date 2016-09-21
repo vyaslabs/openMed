@@ -10,11 +10,11 @@
 <!-- This animation will start at midnight. -->
   <static>
     <duration>1795.0</duration>
-    <file>/usr/share/backgrounds/sushurata-splash.png</file>
+    <file>/usr/share/backgrounds/sushruta-splash.png</file>
   </static>
   <transition>
     <duration>5.0</duration>
-    <from>/usr/share/backgrounds/sushurata-splash.png</from>
+    <from>/usr/share/backgrounds/sushruta-splash.png</from>
     <to>/usr/share/backgrounds/Icy_Grass_by_Raymond_Lavoie.jpg</to>
   </transition>
   <static>

@@ -4,15 +4,15 @@ export FORMAT=squashfs
 export FS_DIR=casper
 
 #Copy the Hindawi customizations
-cd ~/build-sushurata-cd
+cd ~/build-sushruta-cd
 sudo chmod 666 *
-sudo cp -vp ~/build-sushurata-cd/sushurata-logo-plymouth.png /usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo16.png
-sudo cp -vp ~/build-sushurata-cd/sushurata-logo-plymouth.png /usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.png
-sudo cp -vp ~/build-sushurata-cd/sushurata-logo-plymouth.png /usr/share/plymouth/ubuntu-logo.png
-sudo cp -vp ~/build-sushurata-cd/p*.png /usr/share/plymouth/themes/ubuntu-logo/
-sudo cp -vp ~/build-sushurata-cd/ubuntu-logo.script /usr/share/plymouth/themes/ubuntu-logo/
-sudo cp -vp ~/build-sushurata-cd/sushurata-splash.jpg /usr/share/backgrounds/warty-final-ubuntu.jpg
-sudo cp -vp ~/build-sushurata-cd/sushurata-splash.png /usr/share/backgrounds/warty-final-ubuntu.png
+sudo cp -vp ~/build-sushruta-cd/sushruta-logo-plymouth.png /usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo16.png
+sudo cp -vp ~/build-sushruta-cd/sushruta-logo-plymouth.png /usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.png
+sudo cp -vp ~/build-sushruta-cd/sushruta-logo-plymouth.png /usr/share/plymouth/ubuntu-logo.png
+sudo cp -vp ~/build-sushruta-cd/p*.png /usr/share/plymouth/themes/ubuntu-logo/
+sudo cp -vp ~/build-sushruta-cd/ubuntu-logo.script /usr/share/plymouth/themes/ubuntu-logo/
+sudo cp -vp ~/build-sushruta-cd/sushruta-splash.jpg /usr/share/backgrounds/warty-final-ubuntu.jpg
+sudo cp -vp ~/build-sushruta-cd/sushruta-splash.png /usr/share/backgrounds/warty-final-ubuntu.png
 
 
 sudo mkdir -p ${CD}/{${FS_DIR},boot/grub} ${WORK}/rootfs
@@ -61,11 +61,11 @@ sudo mount -t sysfs sysfs ${WORK}/rootfs/sys
 sudo mount -o bind /run ${WORK}/rootfs/run
 
 #Copy the script for actions under chroot
-sudo cp build-sushurata-cd/build-sushurata-cd-under-chroot.sh ${WORK}/rootfs/tmp/
-sudo chroot ${WORK}/rootfs /bin/bash -c "source /tmp/build-sushurata-cd-under-chroot.sh"
+sudo cp build-sushruta-cd/build-sushruta-cd-under-chroot.sh ${WORK}/rootfs/tmp/
+sudo chroot ${WORK}/rootfs /bin/bash -c "source /tmp/build-sushruta-cd-under-chroot.sh"
 
-#Copy the sushurata artwork to cd folder
-sudo cp -vp build-sushurata-cd/*.png ${CD}/${FS_DIR}/
+#Copy the sushruta artwork to cd folder
+sudo cp -vp build-sushruta-cd/*.png ${CD}/${FS_DIR}/
 sudo cp -vp /usr/share/grub/unicode.pf2 ${CD}/${FS_DIR}/unicode.pf2
 
 export kversion=`cd ${WORK}/rootfs/boot && ls -1 vmlinuz-* | tail -1 | sed 's@vmlinuz-@@'`
@@ -93,10 +93,10 @@ echo -n $(sudo du -s --block-size=1 ${WORK}/rootfs | tail -1 | awk '{print $1}')
 find ${CD} -type f -print0 | xargs -0 md5sum | sed "s@${CD}@.@" | grep -v md5sum.txt | sudo tee -a ${CD}/md5sum.txt
 
 #sudo gedit ${CD}/boot/grub/grub.cfg
-sudo cp /home/dcch/build-sushurata-cd/grub.cfg ${CD}/boot/grub/grub.cfg
+sudo cp /home/dcch/build-sushruta-cd/grub.cfg ${CD}/boot/grub/grub.cfg
 
-sudo grub-mkrescue -o ~/sushurata-live-cd.iso ${CD}
+sudo grub-mkrescue -o ~/sushruta-live-cd.iso ${CD}
 
-ls -l /home/dcch/sushurata-live-cd.iso
+ls -l /home/dcch/sushruta-live-cd.iso
 
 #sudo rm -rf ${WORK} ${CD}

@@ -22,7 +22,7 @@
     <name xml:lang="uk">Ubuntu</name>
     <name xml:lang="uz">Ubuntu</name>
     <name xml:lang="zh_CN">Ubuntu</name>
-    <filename>/usr/share/backgrounds/sushurata-splash.png</filename>
+    <filename>/usr/share/backgrounds/sushruta-splash.png</filename>
     <options>zoom</options>
     <pcolor>#2c001e</pcolor>
     <scolor>#2c001e</scolor>
@@ -30,7 +30,7 @@
   </wallpaper>
   <wallpaper>
     <name>Ubuntu Greyscale</name>
-    <filename>/usr/share/backgrounds/sushurata-splash.png</filename>
+    <filename>/usr/share/backgrounds/sushruta-splash.png</filename>
     <options>zoom</options>
     <pcolor>#ececec</pcolor>
     <scolor>#ececec</scolor>
