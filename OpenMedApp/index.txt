@@ -1,0 +1,3 @@
+OpenMed App 
+
+MEAN.JS and Ionic based hybrid app for asynchronous communication between patient, caregiver and UDHC network
