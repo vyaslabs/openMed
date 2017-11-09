@@ -1,4 +1,4 @@
-Iatros is telemedicine (from last mile ayas to  module of OpenMed project.
+Iatros is telemedicine project (for last mile healtcare delivery)
 
 //here we will add all the required modules
 
