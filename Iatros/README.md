@@ -2,23 +2,26 @@ Project Iatros
 
 #Module 1 = CMEs
 
-History Taking
+-History Taking
 
-De-Identifying Data
+-De-Identifying Data
 
-Data Sharing (Blog/App)
+-Data Sharing (Blog/App)
 
-First Aid
+-First Aid
 
-Using Telemedicine Service
+-Using Telemedicine Service
 
-Basic Clinical Examination
+-Basic Clinical Examination
 
-Use CMEs
+-Use CMEs
 
-Create Awareness
+-Create Awareness
 
-Hospital Experience/Electives
+-Hospital Experience/Electives
+
+
+
 
 
 1st Deliverable - Complete CMEs on History Taking, De-Identifying Data, Updating Blogs
