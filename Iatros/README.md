@@ -25,6 +25,7 @@ Project Iatros
 
 
 1st Deliverable - Complete CMEs on History Taking, De-Identifying Data, Updating Blogs
+
 ( 12 Nov 2017 - http://classworkdecjan.blogspot.com/2017/11/udhc-citizen-science.html )
 
 2nd Deliverable - Complete CMEs on First Aid, Using Telemedicine Service, Basic Clinical Examination
