@@ -1,6 +1,5 @@
-Iatros is telemedicine project (for last mile healtcare delivery)
+Project Iatros
 
-//here we will add all the required modules
+Modlule 1 - CMEs
 
-
-#Module 1 = CMEs
+1st Deliverable - Complete CMEs on History Taking, De-Identifying Data
