@@ -1,5 +1,3 @@
-Project Iatros
+Project OpenMed App
 
-Modlule 1 - CMEs
-
-1st Deliverable - Complete CMEs on History Taking, De-Identifying Data
+1st deliverable - build hybrid app V-0.1 using MEAN.JS and Ionic
