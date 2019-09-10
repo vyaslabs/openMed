@@ -30,7 +30,6 @@ Reference - https://github.com/avi33tbtt/OpenMed/tree/master/OpenMedApp )
 5.b - Alpha version
 
 6- Mirror UDHC Records (patient record links and conversational CDSS discussion) https://github.com/avi33tbtt/OpenMed/wiki/UDHC-Patient-Record-Mirror
-
 reference - https://www.igi-global.com/journal/international-journal-user-driven-healthcare/41022
 
 
